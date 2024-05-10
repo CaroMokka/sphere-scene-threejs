@@ -5,4 +5,40 @@
 }
 html, body{
   overflow-x: hidden;
+  font-family: monospace;
 }
+.webgl{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  padding: 4rem 8rem;
+  
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+}
+.title{
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  font-size: 3rem;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50% , -75%);
+}
+
